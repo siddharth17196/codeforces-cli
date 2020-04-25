@@ -50,7 +50,7 @@ packaging==20.3
 pacman-mirrors==4.16.4
 parso==0.6.2
 pep517==0.8.2
-Pillow==6.2.1
+Pillow>=6.2.2
 ply==3.11
 powerline-status==2.7
 progress==1.5
