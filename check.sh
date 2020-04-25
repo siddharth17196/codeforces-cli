@@ -13,7 +13,7 @@ then
     ./a.out < i.txt > o.txt
 fi
 # nvim o.txt out1.txt -O
-diff o.txt out1.txt >sam.txt  2>/dev/null
+diff -y o.txt out1.txt >sam.txt  2>/dev/null
 if [[ "$?" -ne 0 ]]
 then
     echo -e "Verdict : \e[0;31mWrong Answer\e[0m"

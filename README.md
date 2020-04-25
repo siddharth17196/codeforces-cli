@@ -13,6 +13,8 @@ $ ./check.sh a.py
 ```
 ![correct solution](/images/ac.png)
 
+![wrong answer](/images/wrong.png)
+
 - TODO (recent)
     - single command to test/compare test cases and their outputs
     - figure out a way for it run on windows (tested on linux so far)
