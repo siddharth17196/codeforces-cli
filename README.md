@@ -11,6 +11,7 @@ This repo is under development.
 # if a.py is the solution to the problem
 $ ./check.sh a.py
 ```
+![correct solution](/images/ac.png)
 
 - TODO (recent)
     - single command to test/compare test cases and their outputs
