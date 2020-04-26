@@ -15,7 +15,8 @@ $ ./check.sh a.py
 
 ![wrong answer](/images/wrong.png)
 
-- TODO (recent)
-    - single command to test/compare test cases and their outputs
+- TODO 
+    - checking multiple test cases and showning differences
     - figure out a way for it run on windows (tested on linux so far)
 
+    
