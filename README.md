@@ -12,8 +12,8 @@ $ python scrapq.py 1342
 # if a.py is the solution to the problem
 $ ./check.sh a.py
 ```
-correct                             | wrong
--------                             | -----
+Correct Solution                    | Wrong Solution
+----------------                    | --------------
 ![correct solution](/images/ac.png) | ![wrong answer](/images/wrong.png)
 
 ### Tasks
