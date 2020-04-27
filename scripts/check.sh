@@ -12,13 +12,15 @@ then
     g++ "$file" 
     ./a.out < i.txt > o.txt
 fi
-# nvim o.txt out1.txt -O
+
 diff -y o.txt out1.txt >sam.txt  2>/dev/null
+
 if [[ "$?" -ne 0 ]]
 then
-    echo -e "Verdict : \e[0;31mWrong Answer\e[0m"
+    echo -e "Verdict : \e[0;31mWrong Answer\e[0m"   # in red color
     cat sam.txt
 else
-    echo -e "Verdict : \e[0;32mAC\e[0m"
+    echo -e "Verdict : \e[0;32mAC\e[0m"     # in green color
     # echo "AC"
 fi
+
