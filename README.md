@@ -16,7 +16,7 @@ $ ./check.sh a.py
 
 ![wrong answer](/images/wrong.png)
 
-- Tasks
+### Tasks
     - [x] Parsing questions and making sub folders and with test cases
     - [x] checking test cases and showing differenes if wrong 
     - [ ] checking multiple test cases at once
