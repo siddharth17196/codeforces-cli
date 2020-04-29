@@ -1,4 +1,5 @@
 # codeforces-cli
+A simple parsing and checking implementation in python and bash for contests in codeforces.\
 This repo is under development.
 
 - Enter contest number
