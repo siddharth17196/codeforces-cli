@@ -1,10 +1,11 @@
 #!/bin/bash
 
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 mode="$1"
 arg="$2"
 if [[ $mode == "get" ]]
 then
-    source .env/bin/activate
+    source $DIR/.env/bin/activate
     if [[ $arg == "" ]]
     then
         echo "Not a valid format"
