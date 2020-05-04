@@ -27,6 +27,7 @@ if page.status_code == 200:
         if k.lower() not in io: # not selecting the input/output
             test_case_intervals -= 1
             intervals.append(test_case_intervals)
+            test_case_intervals =  0
             if os.path.isdir(contest+"/"+k[:k.index('.')].lower())==False:
                 os.mkdir(contest+"/"+k[:k.index('.')].lower())
             dirname.append(k[:k.index('.')].lower())
@@ -37,7 +38,7 @@ if page.status_code == 200:
     test_case_selecter = 0  # iterate over test_cases 
     for i in range(1,len(intervals)):
         test_case_num = 0   # test case number for each problem
-        while(testcase_num<intervals[i]):
+        while(test_case_num*2<intervals[i]):
             test_case_num += 1
             problem_dir = os.path.join(contest, dirname[i-1])
             test_input = problem_dir + "/inp" + str(test_case_num) + ".txt"

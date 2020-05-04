@@ -28,14 +28,17 @@ do
     then
         break;
     fi
-    echo -e "\e[34mTest case $num\e[0m"
+    printf "\n\033[100mTest case $num\033[0m -> "
     diff -y o"$num".txt out"$num".txt >diff.txt  2>/dev/null
     if [[ "$?" -ne 0 ]]
     then
-        echo -e "Verdict : \e[0;31mWrong Answer\e[0m"   # in red color
-        cat sam.txt
+        echo -e "Verdict: \033[0;31mWrong Answer\033[0m"   # in red color
+        echo -e "\033[0;35mInput\033[0m"
+        cat inp"$num".txt
+        echo -e "\033[0;35mYour Output                                                    Expected Output\e[0m" | cat - diff.txt > temp && mv temp diff.txt
+        cat diff.txt
     else
-        echo -e "Verdict : \e[0;32mAC\e[0m"     # in green color
+        echo -e "Verdict: \033[1;92mCorrect\033[0m"     # in green color
         # echo "AC"
     fi
     num=$((num+1))
