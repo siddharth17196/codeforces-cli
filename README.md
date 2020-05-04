@@ -15,12 +15,13 @@ $ ./check.sh a.py
 ```
 Correct Solution                    | Wrong Solution
 ----------------                    | --------------
-![correct solution](/images/ac.png) | ![wrong answer](/images/wrong.png)
+![correct solution](/images/correct.png) | ![wrong answer](/images/wa.png)
 
 ### Tasks
 - [x] Parsing questions and making sub folders and with test cases
 - [x] checking test cases and showing differenes if wrong 
 - [x] checking multiple test cases at once
+- [ ] improving the usage(directory management)
 - [ ] submit from command line
 - [ ] figure out a way for it run on windows (tested on linux so far)
 
