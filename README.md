@@ -25,6 +25,7 @@ $ cf check a.py
 
 ![directories](/images/tree.png)
 
+### The images might be a bit outdated
 
 Correct Solution                    | Wrong Solution
 ----------------                    | --------------
