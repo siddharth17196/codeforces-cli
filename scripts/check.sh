@@ -7,7 +7,7 @@ then
     declare -i inp_no=1
     for input in $(ls inp?.txt)
     do
-        python "$file" < inp"$inp_no".txt > o"$inp_no".txt
+        python3 "$file" < inp"$inp_no".txt > o"$inp_no".txt
         inp_no=$((inp_no+1))
     done
 elif [[ $file == *.cpp ]]

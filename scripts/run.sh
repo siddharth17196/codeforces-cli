@@ -10,7 +10,7 @@ then
     then
         echo "Not a valid format"
     else
-        python scrapq.py "$arg"
+        python3 scrapq.py "$arg"
     fi
     deactivate
 elif [[ $mode == "check" ]]
