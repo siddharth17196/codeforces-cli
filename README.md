@@ -8,6 +8,20 @@ $ cd codeforces-cli/scripts
 $ bash install.sh
 
 ```
+Add the following to you .bashrc (run.sh is inside the scripts folder)
+`alias cf="bash (path to run.sh)"`
+
+## Usage
+
+- use `get` command to get the questions and test cases
+- use `check` to check the output of the test cases
+    - the file can be named as you wish
+    - this command should be run where the file and the input and output test cases are present
+```
+$ cf get 1348   #get the questions for the contest 1348
+$ cd 1348/a
+$ cf check a.py
+```
 
 ![directories](/images/tree.png)
 

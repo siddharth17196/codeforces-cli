@@ -17,7 +17,7 @@ elif [[ $mode == "check" ]]
 then
     if [[ $arg == *.py || $arg == *.cpp ]]
     then
-        bash check.sh "$arg"
+        bash $DIR/check.sh "$arg"
     else
         echo "Enter path to valid python/c++ file"
     fi
