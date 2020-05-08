@@ -25,11 +25,10 @@ $ cf check a.py
 
 ![directories](/images/tree.png)
 
-### The images might be a bit outdated
 
 Correct Solution                    | Wrong Solution
 ----------------                    | --------------
-![correct solution](/images/correct.png) | ![wrong answer](/images/wa.png)
+![correct solution](/images/cf_correct.png) | ![wrong answer](/images/cf_wrong.png)
 
 ### Tasks
 - [x] Parsing questions and making sub folders and with test cases
