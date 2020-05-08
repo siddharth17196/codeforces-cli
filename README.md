@@ -28,7 +28,7 @@ $ cf check a.py
 
 Correct Solution                    | Wrong Solution
 ----------------                    | --------------
-![Wrong Solution](/images/cf_correct.png) | ![Correct Solution](/images/cf_wrong.png)
+![Correct Solution](/images/cf_wrong.png) | ![Wrong Solution](/images/cf_correct.png)
 
 ### Tasks
 - [x] Parsing questions and making sub folders and with test cases
