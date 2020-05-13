@@ -7,7 +7,7 @@ $ cd codeforces-cli/scripts
 $ bash install.sh
 
 ```
-Add the following to you .bashrc (run.sh is inside the scripts folder)
+Add the following to your .bashrc (run.sh is inside the scripts folder)
 `alias cf="bash (path to run.sh)"`
 
 ## Usage
