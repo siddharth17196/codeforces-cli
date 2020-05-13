@@ -41,7 +41,7 @@ t = int(input())
 for _ in range(t):
     n = list(map(int, input().split()))
 ```
-If you want to change the template file go [here](/scripts/templates) and change the template.py or template.cpp etc whichever language you wnat the template in.
+If you want to change the template file go [here](/scripts/templates) and change the template.py or template.cpp etc whichever language you want the template to be in.
 
 
 ### Tasks
