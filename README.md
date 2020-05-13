@@ -30,11 +30,25 @@ Correct Solution                    | Wrong Solution
 ----------------                    | --------------
 ![Correct Solution](/images/cf_wrong.png) | ![Wrong Solution](/images/cf_correct.png)
 
+## Templates
+
+Initialize each problem directory with a py/cpp/any file with a specific template\
+A sample template could be (for a python file):
+```
+# author : siddharth
+
+t = int(input())
+for _ in range(t):
+    n = list(map(int, input().split()))
+```
+If you want to change the template file go [here](/scripts/templates) and change the template.py or template.cpp etc whichever language you wnat the template in.
+
+
 ### Tasks
 - [x] Parsing questions and making sub folders and with test cases
 - [x] checking test cases and showing differenes if wrong 
 - [x] checking multiple test cases at once
+- [x] include templates
 - [ ] improving the usage(directory management)
 - [ ] submit from command line
-- [ ] figure out a way for it run on windows (tested on linux so far)
 
