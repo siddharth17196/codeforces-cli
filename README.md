@@ -1,6 +1,5 @@
 # codeforces-cli
 A simple parsing and checking implementation in python and bash for contests in codeforces.\
-This repo is under development.
 
 ```
 $ git clone "https://github.com/siddharth17196/codeforces-cli.git"
