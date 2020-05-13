@@ -10,9 +10,13 @@ then
     then
         echo "Not a valid format"
     else
-        python3 scrapq.py "$arg"
+        python scrapq.py "$arg"
     fi
     deactivate
+    for dir in $(ls $arg)
+    do
+        cp -i "$DIR/templates/template.py" "$arg/$dir/$dir.py" 
+    done
 elif [[ $mode == "check" ]]
 then
     if [[ $arg == *.py || $arg == *.cpp ]]
