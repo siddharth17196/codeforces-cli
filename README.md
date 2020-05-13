@@ -23,7 +23,7 @@ $ cd 1348/a
 $ cf check a.py
 ```
 
-![directories](/images/tree.png)
+![directories](/images/tr.png)
 
 
 Correct Solution                    | Wrong Solution
