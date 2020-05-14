@@ -1,6 +1,6 @@
 #!/bin/bash
 
-fil="$1"
+file="$1"
 if [[ $file == *.py ]]
 then
     echo "Lang : Python"
