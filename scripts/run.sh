@@ -10,7 +10,7 @@ then
     then
         echo "Not a valid format"
     else
-        python scrapq.py "$arg"
+        python $DIR/scrapq.py "$arg"
     fi
     deactivate
     for dir in $(ls $arg)
