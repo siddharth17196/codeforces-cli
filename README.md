@@ -1,6 +1,5 @@
 # codeforces-cli
 A simple parsing and checking implementation in python and bash for contests in codeforces.\
-This repo is under development.
 
 ```
 $ git clone "https://github.com/siddharth17196/codeforces-cli.git"
@@ -8,7 +7,7 @@ $ cd codeforces-cli/scripts
 $ bash install.sh
 
 ```
-Add the following to you .bashrc (run.sh is inside the scripts folder)
+Add the following to your .bashrc (run.sh is inside the scripts folder)
 `alias cf="bash (path to run.sh)"`
 
 ## Usage
@@ -41,7 +40,7 @@ t = int(input())
 for _ in range(t):
     n = list(map(int, input().split()))
 ```
-If you want to change the template file go [here](/scripts/templates) and change the template.py or template.cpp etc whichever language you wnat the template in.
+If you want to change the template file go [here](/scripts/templates) and change the template.py or template.cpp etc whichever language you want the template to be in.
 
 
 ### Tasks
