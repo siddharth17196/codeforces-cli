@@ -5,7 +5,7 @@ A simple parsing and checking implementation in python and bash for contests in 
 
 Have `virtualenv` installed (should be path variable)
 
-Ubuntu/Debian - `sudo apt install virtualenv`
+Ubuntu/Debian - `sudo apt install virtualenv`\
 Manjaro/Arch  - `sudo pacman -S virtualenv`
 
 ```
