@@ -1,3 +1,2 @@
-virtualenv
 beautifulsoup4
 requests
