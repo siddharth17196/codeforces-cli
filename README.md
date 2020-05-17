@@ -1,6 +1,13 @@
 # codeforces-cli
 A simple parsing and checking implementation in python and bash for contests in codeforces.\
 
+## Installation
+
+Have `virtualenv` installed (should be path variable)
+
+Ubuntu/Debian - `sudo apt install virtualenv`
+Manjaro/Arch  - `sudo pacman -S virtualenv`
+
 ```
 $ git clone "https://github.com/siddharth17196/codeforces-cli.git"
 $ cd codeforces-cli/scripts
