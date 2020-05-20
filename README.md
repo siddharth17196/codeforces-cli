@@ -9,9 +9,9 @@ Ubuntu/Debian - `sudo apt install virtualenv`\
 Manjaro/Arch  - `sudo pacman -S virtualenv`
 
 ```bash
-$ git clone "https://github.com/siddharth17196/codeforces-cli.git"
-$ cd codeforces-cli/scripts
-$ bash install.sh
+git clone "https://github.com/siddharth17196/codeforces-cli.git"
+cd codeforces-cli/scripts
+bash install.sh
 
 ```
 Add the following to your .bashrc (run.sh is inside the scripts folder)
@@ -24,9 +24,9 @@ Add the following to your .bashrc (run.sh is inside the scripts folder)
     - the file can be named as you wish
     - this command should be run where the file and the input and output test cases are present
 ```bash
-$ cf get 1348   #get the questions for the contest 1348
-$ cd 1348/a
-$ cf check a.py
+cf get 1348   #get the questions for the contest 1348
+cd 1348/a
+cf check a.py
 ```
 
 ![directories](/images/tr.png)
