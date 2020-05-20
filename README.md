@@ -8,7 +8,7 @@ Have `virtualenv` installed (should be path variable)
 Ubuntu/Debian - `sudo apt install virtualenv`\
 Manjaro/Arch  - `sudo pacman -S virtualenv`
 
-```
+```bash
 $ git clone "https://github.com/siddharth17196/codeforces-cli.git"
 $ cd codeforces-cli/scripts
 $ bash install.sh
@@ -23,7 +23,7 @@ Add the following to your .bashrc (run.sh is inside the scripts folder)
 - use `check` to check the output of the test cases
     - the file can be named as you wish
     - this command should be run where the file and the input and output test cases are present
-```
+```bash
 $ cf get 1348   #get the questions for the contest 1348
 $ cd 1348/a
 $ cf check a.py
@@ -40,7 +40,7 @@ Correct Solution                    | Wrong Solution
 
 Initialize each problem directory with a py/cpp/any file with a specific template\
 A sample template could be (for a python file):
-```
+```python
 # author : siddharth
 
 t = int(input())
