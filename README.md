@@ -3,12 +3,12 @@ A simple parsing and checking implementation in python and bash for contests in 
 
 ## Installation
 
+```bash
+git clone "https://github.com/siddharth17196/codeforces-cli.git"
+cd codeforces-cli/scripts
+bash install.sh
 ```
-$ git clone "https://github.com/siddharth17196/codeforces-cli.git"
-$ cd codeforces-cli/scripts
-$ bash install.sh
 
-```
 Add the following to your .bashrc (run.sh is inside the scripts folder)
 `alias cf="bash (path to run.sh)"`
 
@@ -18,10 +18,10 @@ Add the following to your .bashrc (run.sh is inside the scripts folder)
 - use `check` to check the output of the test cases
     - the file can be named as you wish
     - this command should be run where the file and the input and output test cases are present
-```
-$ cf get 1348   #get the questions for the contest 1348
-$ cd 1348/a
-$ cf check a.py
+```bash
+cf get 1348   #get the questions for the contest 1348
+cd 1348/a
+cf check a.py
 ```
 
 ![directories](/images/tr.png)
@@ -35,7 +35,7 @@ Correct Solution                          | Wrong Solution
 
 Initialize each problem directory with a py/cpp/any file with a specific template\
 A sample template could be (for a python file):
-```
+```python
 # author : siddharth
 
 t = int(input())
