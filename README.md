@@ -3,11 +3,6 @@ A simple parsing and checking implementation in python and bash for contests in 
 
 ## Installation
 
-Have `virtualenv` installed (should be path variable)
-
-Ubuntu/Debian - `sudo apt install virtualenv`\
-Manjaro/Arch  - `sudo pacman -S virtualenv`
-
 ```
 $ git clone "https://github.com/siddharth17196/codeforces-cli.git"
 $ cd codeforces-cli/scripts
@@ -32,8 +27,8 @@ $ cf check a.py
 ![directories](/images/tr.png)
 
 
-Correct Solution                    | Wrong Solution
-----------------                    | --------------
+Correct Solution                          | Wrong Solution
+----------------                          | --------------
 ![Correct Solution](/images/cf_wrong.png) | ![Wrong Solution](/images/cf_correct.png)
 
 ## Templates
