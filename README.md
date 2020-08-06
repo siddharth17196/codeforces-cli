@@ -1,5 +1,7 @@
 # codeforces-cli
-A simple parsing and checking implementation in python and bash for contests in codeforces.\
+[![License: WTFPL](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](http://www.wtfpl.net/about/)
+
+> A simple parsing and checking implementation in python and bash for contests in codeforces.\
 
 ## Installation
 
